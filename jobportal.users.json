@@ -1,0 +1,30 @@
+[{
+  "_id": {
+    "$oid": "6824b503ab9a92a296eebf4a"
+  },
+  "fname": "Anjali",
+  "lname": "Chauragade",
+  "email": "anjali@gmail.com",
+  "password": "securePassword123",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "6824b535ab9a92a296eebf4c"
+  },
+  "fname": "Ravi",
+  "lname": "Verma",
+  "email": "ravi.verma@gmail.com",
+  "password": "RaviSecure@456",
+  "status": "active"
+},
+{
+  "_id": {
+    "$oid": "6824b54aab9a92a296eebf4e"
+  },
+  "fname": "Priya",
+  "lname": "Sharma",
+  "email": "priya.sharma@gmail.com",
+  "password": "PriyaPass789",
+  "status": "inactive"
+}]
