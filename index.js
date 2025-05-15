@@ -23,7 +23,11 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
+<<<<<<< HEAD
 const PORT = process.env.PORT || 6000;
+=======
+const PORT = process.env.PORT || 8000;
+>>>>>>> 73330af (Added backend with job description features)
 
 // api's
 app.use("/api/v1/user", userRoute);
