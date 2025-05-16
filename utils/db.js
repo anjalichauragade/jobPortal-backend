@@ -1,22 +1,15 @@
 import mongoose from "mongoose";
 
+const uri = 'mongodb://127.0.0.1:27017/jobportalDB';
+
 const connectDB = async () => {
-<<<<<<< HEAD
   try {
-    await mongoose.connect(process.env.MONGO_URI);
-    console.log("mongodb connected successfully");
+    await mongoose.connect(uri); // Use the variable uri here
+    console.log("MongoDB connected successfully");
   } catch (error) {
-    console.log(error);
+    console.log("MongoDB connection error:", error);
+    process.exit(1); // Exit the process with failure
   }
 };
+
 export default connectDB;
-=======
-    try {
-        await mongoose.connect(process.env.MONGO_URI);
-        console.log('mongodb connected successfully');
-    } catch (error) {
-        console.log(error);
-    }
-}
-export default connectDB;
->>>>>>> 73330af (Added backend with job description features)
