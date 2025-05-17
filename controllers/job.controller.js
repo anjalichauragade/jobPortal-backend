@@ -28,7 +28,7 @@ export const postJob = async (req, res) => {
       !companyId
     ) {
       return res.status(400).json({
-        message: "Something is missing.",
+        message: "Somethin is missing.",
         success: false,
       });
     }
